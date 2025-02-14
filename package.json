@@ -1,0 +1,25 @@
+{
+  "name": "@watheushenry/local-credentials",
+  "version": "2.1.0",
+  "description": "Gerenciador de credenciais criptografadas para Node.js, inspirado no laravel/credentials.",
+  "main": "src/credentials.js",
+  "bin": {
+    "credentials": "bin/cli.js"
+  },
+  "scripts": {
+    "postinstall": "node ./bin/setup-cli.js"
+  },
+  "dependencies": {
+    "commander": "^11.0.0",
+    "dotenv": "^16.0.0",
+    "mysql2": "^3.12.0",
+    "sqlite3": "^5.0.0"
+  },
+  "keywords": [
+    "credentials",
+    "security",
+    "encryption"
+  ],
+  "author": "Matheus Henry",
+  "license": "MIT"
+}
